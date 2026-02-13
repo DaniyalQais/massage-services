@@ -33,7 +33,7 @@ const Contact: React.FC = () => {
               Get in Touch
             </motion.span>
             <h2 className="text-4xl md:text-5xl font-serif text-sage-900 mb-8">Begin Your Journey to Relaxation</h2>
-            
+
             <div className="space-y-8 mb-12">
               <div className="flex items-start gap-6">
                 <div className="w-12 h-12 rounded-full bg-sage-50 flex items-center justify-center text-sage-600 flex-shrink-0">
@@ -41,10 +41,10 @@ const Contact: React.FC = () => {
                 </div>
                 <div>
                   <h4 className="font-serif text-xl text-sage-900 mb-1">Our Location</h4>
-                  <p className="text-sage-600">123 Serenity Blvd, Beverly Hills, CA 90210</p>
+                  <p className="text-sage-600">123 Business Blvd, Beverly Hills, CA 90210</p>
                 </div>
               </div>
-              
+
               <div className="flex items-start gap-6">
                 <div className="w-12 h-12 rounded-full bg-sage-50 flex items-center justify-center text-sage-600 flex-shrink-0">
                   <Phone size={24} />
@@ -69,10 +69,10 @@ const Contact: React.FC = () => {
 
             {/* Maps Placeholder */}
             <div className="w-full h-64 bg-sage-100 rounded-[2rem] overflow-hidden grayscale border border-sage-200">
-               <div className="w-full h-full flex flex-col items-center justify-center text-sage-400 gap-4">
-                  <MapPin size={48} />
-                  <span className="font-medium">Interactive Map Placeholder</span>
-               </div>
+              <div className="w-full h-full flex flex-col items-center justify-center text-sage-400 gap-4">
+                <MapPin size={48} />
+                <span className="font-medium">Interactive Map Placeholder</span>
+              </div>
             </div>
           </div>
 
@@ -94,7 +94,7 @@ const Contact: React.FC = () => {
                       className="w-full px-5 py-3 rounded-2xl border border-sage-200 focus:outline-none focus:border-sage-500 bg-white"
                       placeholder="Jane Doe"
                       value={formData.name}
-                      onChange={(e) => setFormData({...formData, name: e.target.value})}
+                      onChange={(e) => setFormData({ ...formData, name: e.target.value })}
                     />
                   </div>
                   <div>
@@ -105,7 +105,7 @@ const Contact: React.FC = () => {
                       className="w-full px-5 py-3 rounded-2xl border border-sage-200 focus:outline-none focus:border-sage-500 bg-white"
                       placeholder="jane@example.com"
                       value={formData.email}
-                      onChange={(e) => setFormData({...formData, email: e.target.value})}
+                      onChange={(e) => setFormData({ ...formData, email: e.target.value })}
                     />
                   </div>
                 </div>
@@ -119,7 +119,7 @@ const Contact: React.FC = () => {
                       className="w-full px-5 py-3 rounded-2xl border border-sage-200 focus:outline-none focus:border-sage-500 bg-white"
                       placeholder="(555) 000-0000"
                       value={formData.phone}
-                      onChange={(e) => setFormData({...formData, phone: e.target.value})}
+                      onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
                     />
                   </div>
                   <div>
@@ -127,7 +127,7 @@ const Contact: React.FC = () => {
                     <select
                       className="w-full px-5 py-3 rounded-2xl border border-sage-200 focus:outline-none focus:border-sage-500 bg-white"
                       value={formData.service}
-                      onChange={(e) => setFormData({...formData, service: e.target.value})}
+                      onChange={(e) => setFormData({ ...formData, service: e.target.value })}
                     >
                       <option value="">Select Service</option>
                       <option value="swedish">Swedish Massage</option>
@@ -145,7 +145,7 @@ const Contact: React.FC = () => {
                     className="w-full px-5 py-3 rounded-2xl border border-sage-200 focus:outline-none focus:border-sage-500 bg-white resize-none"
                     placeholder="Tell us about any specific areas you'd like us to focus on..."
                     value={formData.message}
-                    onChange={(e) => setFormData({...formData, message: e.target.value})}
+                    onChange={(e) => setFormData({ ...formData, message: e.target.value })}
                   ></textarea>
                 </div>
 

@@ -12,7 +12,7 @@ const BusinessView: React.FC = () => {
                 <div className="max-w-7xl mx-auto px-6 h-20 flex justify-between items-center">
                     <div className="flex items-center gap-2">
                         <Handshake className="text-emerald-600 w-6 h-6" />
-                        <span className="text-xl font-bold tracking-tight">Serenity <span className="text-emerald-600">Pro</span></span>
+                        <span className="text-xl font-bold tracking-tight">Business <span className="text-emerald-600">Pro</span></span>
                     </div>
                     <div className="hidden md:flex gap-8 text-sm font-medium text-gray-600">
                         <a href="#teams" className="hover:text-emerald-600 transition-colors">Team Wellness</a>
@@ -138,13 +138,13 @@ const BusinessView: React.FC = () => {
                     <div>
                         <div className="flex items-center gap-2 mb-6">
                             <Handshake className="text-emerald-600 w-5 h-5" />
-                            <span className="text-lg font-bold text-gray-900 tracking-tight">Serenity <span className="text-emerald-600">Pro</span></span>
+                            <span className="text-lg font-bold text-gray-900 tracking-tight">Business <span className="text-emerald-600">Pro</span></span>
                         </div>
                         <p>Providing enterprise-grade wellness solutions since 2012.</p>
                     </div>
                     <div className="space-y-3">
                         <div className="font-bold text-gray-900 mb-4 uppercase tracking-widest text-xs">Contact</div>
-                        <p className="flex items-center gap-2"><Mail className="w-4 h-4" /> sales@serenitypro.com</p>
+                        <p className="flex items-center gap-2"><Mail className="w-4 h-4" /> sales@businesspro.com</p>
                         <p className="flex items-center gap-2"><MapPin className="w-4 h-4" /> 500 Howard St, San Francisco, CA</p>
                     </div>
                     <div className="space-y-3">

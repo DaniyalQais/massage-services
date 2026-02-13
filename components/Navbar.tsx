@@ -18,15 +18,14 @@ const Navbar: React.FC = () => {
 
   return (
     <nav
-      className={`fixed top-0 w-full z-50 transition-all duration-300 ${
-        isScrolled ? 'bg-glass shadow-sm py-4' : 'bg-transparent py-6'
-      }`}
+      className={`fixed top-0 w-full z-50 transition-all duration-300 ${isScrolled ? 'bg-glass shadow-sm py-4' : 'bg-transparent py-6'
+        }`}
     >
       <div className="container mx-auto px-6 md:px-12 flex justify-between items-center">
         <a href="#home" className="flex items-center gap-2 group">
           <Leaf className="text-sage-600 w-8 h-8 group-hover:rotate-12 transition-transform duration-300" />
           <span className="font-serif text-2xl font-semibold tracking-tight text-sage-900">
-            Serenity <span className="text-sage-500">Touch</span>
+            Your <span className="text-sage-500">Business</span>
           </span>
         </a>
 

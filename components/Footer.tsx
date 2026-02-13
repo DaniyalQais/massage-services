@@ -12,7 +12,7 @@ const Footer: React.FC = () => {
             <a href="#home" className="flex items-center gap-2 mb-6">
               <Leaf className="text-sage-600 w-8 h-8" />
               <span className="font-serif text-2xl font-semibold tracking-tight text-sage-900">
-                Serenity <span className="text-sage-500">Touch</span>
+                Your <span className="text-sage-500">Business</span>
               </span>
             </a>
             <p className="text-sage-600 text-sm leading-relaxed mb-6">
@@ -61,9 +61,9 @@ const Footer: React.FC = () => {
             <h4 className="font-serif text-xl text-sage-900 mb-6">Newsletter</h4>
             <p className="text-sage-600 text-sm mb-4">Join our list for exclusive wellness tips and offers.</p>
             <form className="flex flex-col gap-2">
-              <input 
-                type="email" 
-                placeholder="Email address" 
+              <input
+                type="email"
+                placeholder="Email address"
                 className="px-4 py-3 rounded-xl border border-sage-200 bg-white focus:outline-none focus:border-sage-500 text-sm"
               />
               <button className="bg-sage-900 text-white py-3 rounded-xl text-sm font-bold uppercase tracking-widest hover:bg-sage-800 transition-all">
@@ -74,7 +74,7 @@ const Footer: React.FC = () => {
         </div>
 
         <div className="pt-8 border-t border-sage-200 flex flex-col md:flex-row justify-between items-center gap-4 text-xs font-medium text-sage-500 uppercase tracking-widest">
-          <p>© 2024 Serenity Touch Massage. All rights reserved.</p>
+          <p>© 2024 Your Business. All rights reserved.</p>
           <div className="flex gap-8">
             <a href="#" className="hover:text-sage-900">Privacy Policy</a>
             <a href="#" className="hover:text-sage-900">Terms of Service</a>

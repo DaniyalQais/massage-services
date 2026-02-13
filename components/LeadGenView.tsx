@@ -9,14 +9,14 @@ const LeadGenView: React.FC = () => {
         <div className="bg-slate-50 text-slate-900 font-sans selection:bg-blue-100">
             {/* Promo Banner */}
             <div className="bg-blue-600 text-white text-center py-2 text-sm font-medium">
-                🎉 Limited Time Offer: Get 20% OFF your first booking! Use code <span className="underline decoration-2">SERENITY20</span>
+                🎉 Limited Time Offer: Get 20% OFF your first booking! Use code <span className="underline decoration-2">YOURBIZ20</span>
             </div>
 
             {/* Navigation */}
             <nav className="p-4 md:px-12 flex justify-between items-center bg-white shadow-sm sticky top-0 z-50">
                 <div className="flex items-center gap-2">
-                    <div className="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center text-white font-bold">S</div>
-                    <h1 className="text-xl font-bold tracking-tight">Serenity Touch</h1>
+                    <div className="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center text-white font-bold">Y</div>
+                    <h1 className="text-xl font-bold tracking-tight">Your Business</h1>
                 </div>
                 <div className="hidden md:flex gap-8 text-sm font-semibold text-slate-600">
                     <a href="#services" className="hover:text-blue-600">Services</a>
@@ -139,7 +139,7 @@ const LeadGenView: React.FC = () => {
             {/* Footer */}
             <footer className="py-12 bg-slate-900 text-slate-400 px-6">
                 <div className="max-w-7xl mx-auto text-center">
-                    <div className="mb-6 font-bold text-white uppercase tracking-widest text-sm">Serenity Touch</div>
+                    <div className="mb-6 font-bold text-white uppercase tracking-widest text-sm">Your Business</div>
                     <p className="mb-8">123 Wellness Blvd, San Francisco, CA 94105</p>
                     <div className="flex justify-center gap-6 text-sm">
                         <a href="#" className="hover:text-white">Privacy</a>

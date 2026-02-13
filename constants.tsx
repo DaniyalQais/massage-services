@@ -73,7 +73,7 @@ export const TESTIMONIALS: Testimonial[] = [
     id: '2',
     name: 'David Wilson',
     rating: 5,
-    text: "Serenity Touch lives up to its name. The atmosphere is calming from the second you walk in. The hot stone therapy is a must-try.",
+    text: "Your Business lives up to its name. The atmosphere is calming from the second you walk in. The hot stone therapy is a must-try.",
     location: 'Los Angeles, CA',
   },
   {
