@@ -25,7 +25,7 @@ const Navbar: React.FC = () => {
         <a href="#home" className="flex items-center gap-2 group">
           <Leaf className="text-sage-600 w-8 h-8 group-hover:rotate-12 transition-transform duration-300" />
           <span className="font-serif text-2xl font-semibold tracking-tight text-sage-900">
-            Your <span className="text-sage-500">Business</span>
+            Refresh Massage Therapy
           </span>
         </a>
 
