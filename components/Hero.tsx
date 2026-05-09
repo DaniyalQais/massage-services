@@ -23,7 +23,7 @@ const Hero: React.FC = () => {
             transition={{ duration: 0.8, ease: "easeOut" }}
           >
             <span className="inline-block px-4 py-1.5 mb-6 text-xs font-semibold tracking-widest text-sage-600 uppercase bg-sage-100 rounded-full">
-              Licensed Massage Therapy in California
+              Licensed Massage Therapy in Lufkin
             </span>
             <h1 className="text-5xl md:text-7xl font-serif text-sage-900 leading-tight mb-6">
               Relax. Refresh. <br />

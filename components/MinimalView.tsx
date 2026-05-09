@@ -8,7 +8,7 @@ const MinimalView: React.FC = () => {
     <div className="bg-white text-zinc-900 font-sans selection:bg-zinc-200">
       {/* Header */}
       <nav className="p-8 flex justify-between items-center bg-white/50 backdrop-blur-md sticky top-0 z-50">
-        <h1 className="text-xl font-serif tracking-widest uppercase">Business</h1>
+        <h1 className="text-xl font-serif tracking-widest uppercase">Refresh Massage Therapy</h1>
         <div className="space-x-8 text-xs uppercase tracking-widest font-medium text-zinc-500">
           <a href="#services" className="hover:text-zinc-900 transition-colors">Services</a>
           <a href="#about" className="hover:text-zinc-900 transition-colors">About</a>
@@ -85,9 +85,9 @@ const MinimalView: React.FC = () => {
       {/* Footer */}
       <footer id="contact" className="py-24 px-6 text-center border-t border-zinc-100">
         <h2 className="text-3xl font-serif mb-8">Ready to begin?</h2>
-        <p className="text-zinc-500 mb-12 font-light">Available for bookings in California.</p>
+        <p className="text-zinc-500 mb-12 font-light">Available for bookings in Lufkin.</p>
         <div className="text-xs uppercase tracking-widest text-zinc-400 space-y-4">
-          <p>© 2026 Your Business</p>
+          <p>© 2026 Refresh Massage Therapy</p>
           <p>Privacy / Terms</p>
         </div>
       </footer>

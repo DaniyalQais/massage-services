@@ -38,7 +38,7 @@ const WhyChooseUs: React.FC = () => {
               viewport={{ once: true }}
               className="text-sage-400 font-semibold tracking-widest uppercase text-sm block mb-4"
             >
-              Why Your Business?
+              Why Refresh Massage Therapy?
             </motion.span>
             <h2 className="text-4xl md:text-5xl font-serif mb-8 leading-tight">
               A Standard of Excellence in <span className="italic text-sage-300">Holistic Care</span>
@@ -57,7 +57,7 @@ const WhyChooseUs: React.FC = () => {
                 <div className="w-10 h-10 rounded-full bg-sage-800 flex items-center justify-center">
                   <Star className="text-sage-400 w-5 h-5" />
                 </div>
-                <span className="text-xs uppercase tracking-widest font-bold">California Certified</span>
+                <span className="text-xs uppercase tracking-widest font-bold">Lufkin Certified</span>
               </div>
             </div>
           </div>

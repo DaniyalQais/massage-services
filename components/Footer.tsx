@@ -12,11 +12,11 @@ const Footer: React.FC = () => {
             <a href="#home" className="flex items-center gap-2 mb-6">
               <Leaf className="text-sage-600 w-8 h-8" />
               <span className="font-serif text-2xl font-semibold tracking-tight text-sage-900">
-                Your <span className="text-sage-500">Business</span>
+                Refresh Massage Therapy
               </span>
             </a>
             <p className="text-sage-600 text-sm leading-relaxed mb-6">
-              Elevating wellness through the art of professional massage. Experience luxury relaxation in the heart of California.
+              Elevating wellness through the art of professional massage. Experience luxury relaxation in the heart of Lufkin.
             </p>
             <div className="flex gap-4">
               <a href="#" className="w-10 h-10 rounded-full border border-sage-200 flex items-center justify-center text-sage-600 hover:bg-sage-600 hover:text-white transition-all">
@@ -74,7 +74,7 @@ const Footer: React.FC = () => {
         </div>
 
         <div className="pt-8 border-t border-sage-200 flex flex-col md:flex-row justify-between items-center gap-4 text-xs font-medium text-sage-500 uppercase tracking-widest">
-          <p>© 2024 Your Business. All rights reserved.</p>
+          <p>© 2024 Refresh Massage Therapy. All rights reserved.</p>
           <div className="flex gap-8">
             <a href="#" className="hover:text-sage-900">Privacy Policy</a>
             <a href="#" className="hover:text-sage-900">Terms of Service</a>

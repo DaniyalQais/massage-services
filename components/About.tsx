@@ -55,7 +55,7 @@ const About: React.FC = () => {
               Healing Hands, Calming Presence
             </motion.h2>
             <p className="text-sage-700 text-lg mb-8 leading-relaxed">
-              At Your Business, we believe that true wellness begins with a calm mind and a relaxed body. Founded in California, our mission has always been to provide a holistic approach to stress relief and physical health.
+              At Refresh Massage Therapy, we believe that true wellness begins with a calm mind and a relaxed body. Founded in Lufkin, our mission has always been to provide a holistic approach to stress relief and physical health.
             </p>
 
             <div className="space-y-4 mb-10">
